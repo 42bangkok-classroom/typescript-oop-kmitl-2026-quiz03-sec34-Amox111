@@ -1,15 +1,12 @@
 import { Car } from "./car";
 
-const car = new Car();
+const car = new Car("Toyota", "Camry");
 
-car.brand = "Toyota";
-car.model = "Camry";
-
-car.start();
+car.start()
 // Toyota Camry is starting...
-car.accelerate();
+car.accelerate()
 // Toyota Camry is accelerating...
-car.brake();
+car.brake()
 // Toyota Camry is braking...
-car.stop();
+car.stop()
 // Toyota Camry is stopping...
