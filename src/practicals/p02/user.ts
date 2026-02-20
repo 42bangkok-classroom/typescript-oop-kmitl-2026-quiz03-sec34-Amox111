@@ -2,21 +2,22 @@ export class User {
     firstName: string = ""
     lastName: string = ""
     private age = 0
+    static BIRTH_YEAR: number
 
-    setFirstname(){
+    setFirstname(firstName: string){
         this.firstName = this.firstName
     }
 
-    setLastname(){
-
+    setLastname(lastName: string){
+        this.lastName = this.lastName
     }
 
-    setAge(){
-
+    setAge(age: number){
+        this.age = this.age
     }
 
     getAge(){
-        return 
+        return this.age
     }
 
     getFullName(){
